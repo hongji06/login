@@ -18,7 +18,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	<meta http-equiv="expires" content="0">    
 	<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
 	<meta http-equiv="description" content="This is my page">
-	  <LINK href="resource/css/admin.css" type=text/css rel=stylesheet>
+	  <LINK href="css/admin.css" type=text/css rel=stylesheet>
 	<style type="text/css">
 	/* #div1{
 	
@@ -55,7 +55,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		var carevalue=$("#care").val();
 		var linkvalue=$("#link").val();
 		var customervalue=$("#customer").val();
-		window.location.href="servlet/EmployeeServlet?method=loadPage2&NoticeDate="+noticevalue;
+		window.location.href="EmployeeServlet?method=loadPage2&NoticeDate="+noticevalue;
 	}
 	
 	function gocare(){
@@ -63,7 +63,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		var carevalue=$("#care").val();
 		var linkvalue=$("#link").val();
 		var customervalue=$("#customer").val();
-		window.location.href="servlet/EmployeeServlet?method=loadPage2&CareDate="+carevalue;
+		window.location.href="EmployeeServlet?method=loadPage2&CareDate="+carevalue;
 	}
 	
 	function golink(){
@@ -71,14 +71,14 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		var carevalue=$("#care").val();
 		var linkvalue=$("#link").val();
 		var customervalue=$("#customer").val();
-		window.location.href="servlet/EmployeeServlet?method=loadPage2&LinkDate="+linkvalue;
+		window.location.href="EmployeeServlet?method=loadPage2&LinkDate="+linkvalue;
 	}
 	function gocustomer(){
 		var noticevalue = $("#notice").val();
 		var carevalue=$("#care").val();
 		var linkvalue=$("#link").val();
 		var customervalue=$("#customer").val();
-		window.location.href="servlet/EmployeeServlet?method=loadPage2&CustomerDate="+customervalue;
+		window.location.href="EmployeeServlet?method=loadPage2&CustomerDate="+customervalue;
 	}
 	
 </script>
@@ -86,7 +86,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </head>
   
   <body>
-    <form action="<%=basePath%>servlet/WorkQueryServlet" method="post"  >
+    <form action="<%=basePath%>WorkQueryServlet" method="post"  >
 	<table class=editTable cellSpacing=1 cellPadding=0 width="100%" align=center border=0>
 		<tr class=editHeaderTr>
 		<td class=editHeaderTd >  关怀提醒

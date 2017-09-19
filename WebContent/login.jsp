@@ -15,18 +15,16 @@
 <meta http-equiv="expires" content="0">
 <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
 <meta http-equiv="description" content="This is my page">
-<script type="text/javascript" src="resource/js/CheckForm.js"></script>
-<script language="JavaScript" type="text/javascript"
-	src="resource/js/FormValid.js"></script>
+<script language="JavaScript" type="text/javascript" src="js/CheckForm.js"></script>
+<script language="JavaScript" type="text/javascript" src="js/FormValid.js"></script>
 
 <script type="text/javascript">
-			var errori ='<%=request.getParameter("error")%>
-	'
+	var errori ='<%=request.getParameter("error")%>'
 	if (errori == 'yes') {
 		alert("用户或密码错误！请重新输入！");
 	}
 </script>
-<link rel="stylesheet" type="text/css" href="resource/css/login.css" />
+<link rel="stylesheet" type="text/css" href="css/login.css" />
 
 
 <%
@@ -51,7 +49,7 @@
 </head>
 
 <body>
-	<form name="from1" action="servlet/EmployeeServlet?method=login"
+	<form name="from1" action="EmployeeServlet?method=login"
 		method="post" onsubmit="return validator(this)">
 		<table width="100%" height="100%" border="0" cellpadding="0"
 			cellspacing="0">
@@ -60,15 +58,15 @@
 					<table width="962" border="0" align="center" cellpadding="0"
 						cellspacing="0">
 						<tr>
-							<td height="235" background="resource/images/login_03.gif">&nbsp;</td>
+							<td height="235" background="images/login_03.gif">&nbsp;</td>
 						</tr>
 						<tr>
 							<td height="53"><table width="100%" border="0"
 									cellspacing="0" cellpadding="0">
 									<tr>
 										<td width="394" height="53"
-											background="resource/images/login_05.gif">&nbsp;</td>
-										<td width="206" background="resource/images/login_06.gif">
+											background="images/login_05.gif">&nbsp;</td>
+										<td width="206" background="images/login_06.gif">
 											<table width="100%" border="0" cellspacing="0"
 												cellpadding="0">
 												<tr>
@@ -103,13 +101,13 @@
 												</tr>
 											</table>
 										</td>
-										<td width="362" background="resource/images/login_07.gif">&nbsp;
+										<td width="362" background="images/login_07.gif">&nbsp;
 										</td>
 									</tr>
 								</table></td>
 						</tr>
 						<tr>
-							<td height="213" background="resource/images/login_08.gif"
+							<td height="213" background="images/login_08.gif"
 								id="mytd" align="center" valign="top"><span>&nbsp;
 									<input type="checkbox" name="remember" value="remember"
 									id="remember" <%=check%>>

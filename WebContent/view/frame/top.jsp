@@ -89,18 +89,18 @@ a {
 
 		<table width="100%" border="0" cellspacing="0" cellpadding="0">
 			<tr>
-				<td height="70" background="resource/images/main_05.gif">
+				<td height="70" background="images/main_05.gif">
 					<table width="100%" border="0" cellspacing="0" cellpadding="0">
 						<tr>
 							<td height="24">
 								<table width="100%" border="0" cellspacing="0" cellpadding="0">
 									<tr>
 										<td width="270" height="24"
-											background="resource/images/main_03.gif">&nbsp;</td>
-										<td width="505" background="resource/images/main_04.gif">
+											background="images/main_03.gif">&nbsp;</td>
+										<td width="505" background="images/main_04.gif">
 											&nbsp;</td>
 										<td>&nbsp;</td>
-										<td width="21"><img src="resource/images/main_07.gif"
+										<td width="21"><img src="images/main_07.gif"
 											width="21" height="24"></td>
 									</tr>
 								</table>
@@ -111,7 +111,7 @@ a {
 								<table width="100%" border="0" cellspacing="0" cellpadding="0">
 									<tr>
 										<td width="270" height="38"
-											background="resource/images/main_09.gif">&nbsp;</td>
+											background="images/main_09.gif">&nbsp;</td>
 										<td>
 											<table width="100%" border="0" cellspacing="0"
 												cellpadding="0">
@@ -124,7 +124,7 @@ a {
 																	<div align="center">
 																		<a href="servlet/EmployeeServlet?method=loadPage"
 																			target="_top"><img
-																			src="resource/images/main_12.gif" width="49"
+																			src="images/main_12.gif" width="49"
 																			height="19"> </a>
 																	</div>
 																</td>
@@ -132,13 +132,13 @@ a {
 																	<div align="center">
 																		<a href="servlet/EmployeeServlet?method=logout"
 																			target="_top"><img
-																			src="resource/images/main_20.gif" width="48"
+																			src="images/main_20.gif" width="48"
 																			height="19"> </a>
 																	</div>
 																</td>
 																<td width="26">
 																	<div align="center">
-																		<img src="resource/images/main_21.gif" width="26"
+																		<img src="images/main_21.gif" width="26"
 																			height="19">
 																	</div>
 																</td>
@@ -146,7 +146,7 @@ a {
 																	<div align="center">
 																		<a href="view/admin/emp_info_edit.jsp"
 																			target="mainFrame"><img
-																			src="resource/images/main_22.gif" width="98"
+																			src="images/main_22.gif" width="98"
 																			height="19"> </a>
 																	</div>
 																</td>
@@ -165,7 +165,7 @@ a {
 												</tr>
 											</table>
 										</td>
-										<td width="21"><img src="resource/images/main_11.gif"
+										<td width="21"><img src="images/main_11.gif"
 											width="21" height="38"></td>
 									</tr>
 								</table>
@@ -175,13 +175,13 @@ a {
 							<td height="8" style="line-height: 8px;">
 								<table width="100%" border="0" cellspacing="0" cellpadding="0">
 									<tr>
-										<td width="270" background="resource/images/main_29.gif"
+										<td width="270" background="images/main_29.gif"
 											style="line-height: 8px;">&nbsp;</td>
-										<td width="505" background="resource/images/main_30.gif"
+										<td width="505" background="images/main_30.gif"
 											style="line-height: 8px;">&nbsp;</td>
 										<td style="line-height: 8px;">&nbsp;</td>
 										<td width="21" style="line-height: 8px;"><img
-											src="resource/images/main_31.gif" width="21" height="8">
+											src="images/main_31.gif" width="21" height="8">
 										</td>
 									</tr>
 								</table>
@@ -191,11 +191,11 @@ a {
 				</td>
 			</tr>
 			<tr>
-				<td height="28" background="resource/images/main_36.gif">
+				<td height="28" background="images/main_36.gif">
 					<table width="100%" border="0" cellspacing="0" cellpadding="0">
 						<tr>
 							<td width="177" height="28"
-								background="resource/images/main_32.gif">
+								background="images/main_32.gif">
 								<table width="100%" border="0" cellspacing="0" cellpadding="0">
 									<tr>
 										<td width="20%" height="22">&nbsp;</td>
@@ -219,7 +219,7 @@ a {
 																cellpadding="0" cellspacing="0">
 																<tr>
 																	<td height="20" style="cursor: hand"
-																		onMouseOver="this.style.backgroundImage='url(resource/images/bg.gif)';this.style.borderStyle='solid';this.style.borderWidth='1';borderColor='#a6d0e7'; "
+																		onMouseOver="this.style.backgroundImage='url(images/bg.gif)';this.style.borderStyle='solid';this.style.borderWidth='1';borderColor='#a6d0e7'; "
 																		onmouseout="this.style.backgroundImage='url()';this.style.borderStyle='none'">
 																		<div align="center" class="STYLE3">
 																			<a href="#"
@@ -232,14 +232,14 @@ a {
 													</tr>
 												</table>
 											</td> -->
-										<td width="3"><img src="resource/images/main_34.gif"
+										<td width="3"><img src="images/main_34.gif"
 											width="3" height="28"></td>
 										<td width="63">
 											<table width="58" border="0" align="center" cellpadding="0"
 												cellspacing="0">
 												<tr>
 													<td height="20" style="cursor: hand"
-														onMouseOver="this.style.backgroundImage='url(resource/images/bg.gif)';this.style.borderStyle='solid';this.style.borderWidth='1';borderColor='#a6d0e7'; "
+														onMouseOver="this.style.backgroundImage='url(images/bg.gif)';this.style.borderStyle='solid';this.style.borderWidth='1';borderColor='#a6d0e7'; "
 														onmouseout="this.style.backgroundImage='url()';this.style.borderStyle='none'">
 														<div align="center" class="STYLE3">
 															<a href="servlet/ReportServlet" target="mainFrame">报表</a>
@@ -248,14 +248,14 @@ a {
 												</tr>
 											</table>
 										</td>
-										<td width="3"><img src="resource/images/main_34.gif"
+										<td width="3"><img src="images/main_34.gif"
 											width="3" height="28"></td>
 										<td width="63">
 											<table width="58" border="0" align="center" cellpadding="0"
 												cellspacing="0">
 												<tr>
 													<td height="20" style="cursor: hand"
-														onMouseOver="this.style.backgroundImage='url(resource/images/bg.gif)';this.style.borderStyle='solid';this.style.borderWidth='1';borderColor='#a6d0e7'; "
+														onMouseOver="this.style.backgroundImage='url(images/bg.gif)';this.style.borderStyle='solid';this.style.borderWidth='1';borderColor='#a6d0e7'; "
 														onmouseout="this.style.backgroundImage='url()';this.style.borderStyle='none'">
 														<div align="center" class="STYLE3">
 															<a href="servlet/CustomerServlet?method=show"
@@ -265,14 +265,14 @@ a {
 												</tr>
 											</table>
 										</td>
-										<td width="3"><img src="resource/images/main_34.gif"
+										<td width="3"><img src="images/main_34.gif"
 											width="3" height="28"></td>
 										<td width="63">
 											<table width="58" border="0" align="center" cellpadding="0"
 												cellspacing="0">
 												<tr>
 													<td height="20" style="cursor: hand"
-														onMouseOver="this.style.backgroundImage='url(resource/images/bg.gif)';this.style.borderStyle='solid';this.style.borderWidth='1';borderColor='#a6d0e7'; "
+														onMouseOver="this.style.backgroundImage='url(images/bg.gif)';this.style.borderStyle='solid';this.style.borderWidth='1';borderColor='#a6d0e7'; "
 														onmouseout="this.style.backgroundImage='url()';this.style.borderStyle='none'">
 														<div align="center" class="STYLE3">
 															<a href="servlet/EmployeeServlet?method=find"
@@ -282,14 +282,14 @@ a {
 												</tr>
 											</table>
 										</td>
-										<td width="3"><img src="resource/images/main_34.gif"
+										<td width="3"><img src="images/main_34.gif"
 											width="3" height="28"></td>
 										<td width="63">
 											<table width="58" border="0" align="center" cellpadding="0"
 												cellspacing="0">
 												<tr>
 													<td height="20" style="cursor: hand"
-														onMouseOver="this.style.backgroundImage='url(resource/images/bg.gif)';this.style.borderStyle='solid';this.style.borderWidth='1';borderColor='#a6d0e7'; "
+														onMouseOver="this.style.backgroundImage='url(images/bg.gif)';this.style.borderStyle='solid';this.style.borderWidth='1';borderColor='#a6d0e7'; "
 														onmouseout="this.style.backgroundImage='url()';this.style.borderStyle='none'">
 														<div align="center" class="STYLE3">
 															<a href="servlet/NoticeServlet?method=show"
@@ -299,14 +299,14 @@ a {
 												</tr>
 											</table>
 										</td>
-										<td width="3"><img src="resource/images/main_34.gif"
+										<td width="3"><img src="images/main_34.gif"
 											width="3" height="28"></td>
 										<td width="63">
 											<table width="58" border="0" align="center" cellpadding="0"
 												cellspacing="0">
 												<tr>
 													<td height="20" style="cursor: hand"
-														onMouseOver="this.style.backgroundImage='url(resource/images/bg.gif)';this.style.borderStyle='solid';this.style.borderWidth='1';borderColor='#a6d0e7'; "
+														onMouseOver="this.style.backgroundImage='url(images/bg.gif)';this.style.borderStyle='solid';this.style.borderWidth='1';borderColor='#a6d0e7'; "
 														onmouseout="this.style.backgroundImage='url()';this.style.borderStyle='none'">
 														<div align="center" class="STYLE3">
 															<a href="view/admin/send_mail.jsp" target="mainFrame">发件箱</a>
@@ -315,14 +315,14 @@ a {
 												</tr>
 											</table>
 										</td>
-										<td width="3"><img src="resource/images/main_34.gif"
+										<td width="3"><img src="images/main_34.gif"
 											width="3" height="28"></td>
 										<td width="63">
 											<table width="58" border="0" align="center" cellpadding="0"
 												cellspacing="0">
 												<tr>
 													<td height="20" style="cursor: hand"
-														onMouseOver="this.style.backgroundImage='url(resource/images/bg.gif)';this.style.borderStyle='solid';this.style.borderWidth='1';borderColor='#a6d0e7'; "
+														onMouseOver="this.style.backgroundImage='url(images/bg.gif)';this.style.borderStyle='solid';this.style.borderWidth='1';borderColor='#a6d0e7'; "
 														onmouseout="this.style.backgroundImage='url()';this.style.borderStyle='none'">
 														<div align="center" class="STYLE3">
 															<a href="servlet/HouseInfoServlet?method=find"
@@ -332,14 +332,14 @@ a {
 												</tr>
 											</table>
 										</td>
-										<td width="3"><img src="resource/images/main_34.gif"
+										<td width="3"><img src="images/main_34.gif"
 											width="3" height="28"></td>
 										<!-- <td width="63">
 												<table width="58" border="0" align="center" cellpadding="0"
 													cellspacing="0">
 													<tr>
 														<td height="20" style="cursor: hand"
-															onMouseOver="this.style.backgroundImage='url(resource/images/bg.gif)';this.style.borderStyle='solid';this.style.borderWidth='1';borderColor='#a6d0e7'; "
+															onMouseOver="this.style.backgroundImage='url(images/bg.gif)';this.style.borderStyle='solid';this.style.borderWidth='1';borderColor='#a6d0e7'; "
 															onmouseout="this.style.backgroundImage='url()';this.style.borderStyle='none'">
 															<div align="center" class="STYLE3">
 																<a
@@ -356,7 +356,7 @@ a {
 									</tr>
 								</table>
 							</td>
-							<td width="21"><img src="resource/images/main_37.gif"
+							<td width="21"><img src="images/main_37.gif"
 								width="21" height="28"></td>
 						</tr>
 					</table>

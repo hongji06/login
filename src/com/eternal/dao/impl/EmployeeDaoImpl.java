@@ -89,7 +89,7 @@ public class EmployeeDaoImpl implements EmployeeDao {
 
 			e.printStackTrace();
 		} finally {
-			DBUtil.closeAll(rs, stmt, conn);
+			DBUtil.closeAll(rs, stmt, null);
 		}
 
 		return user;
@@ -157,7 +157,7 @@ public class EmployeeDaoImpl implements EmployeeDao {
 			e.printStackTrace();
 		} finally {
 			// 关闭资源
-			DBUtil.closeAll(rs, stmt, conn);
+			DBUtil.closeAll(rs, stmt, null);
 		}
 		// 返回数据
 		System.out.println(empList.size());
@@ -213,7 +213,7 @@ public class EmployeeDaoImpl implements EmployeeDao {
 			e.printStackTrace();
 		} finally {
 			// 关闭资源
-			DBUtil.closeAll(rs, stmt, conn);
+			DBUtil.closeAll(rs, stmt, null);
 		}
 		// 返回数据
 		return userInfo;
@@ -249,7 +249,7 @@ public class EmployeeDaoImpl implements EmployeeDao {
 			e.printStackTrace();
 		} finally {
 			// 关闭资源
-			DBUtil.closeAll(rs, stmt, conn);
+			DBUtil.closeAll(rs, stmt, null);
 		}
 		// 返回数据
 		return n;
@@ -325,7 +325,7 @@ public class EmployeeDaoImpl implements EmployeeDao {
 			e.printStackTrace();
 		} finally {
 			// 关闭资源
-			DBUtil.closeAll(rs, stmt, conn);
+			DBUtil.closeAll(rs, stmt, null);
 		}
 		// 返回数据
 		System.out.println(empList.size());

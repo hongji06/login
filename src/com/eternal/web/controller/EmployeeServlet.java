@@ -7,6 +7,7 @@ import java.util.Date;
 import java.util.List;
 
 import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -18,6 +19,7 @@ import com.eternal.service.impl.EmployeeServiceImpl;
 import com.eternal.utils.PageBean;
 import com.google.gson.Gson;
 
+@WebServlet("/EmployeeServlet")
 public class EmployeeServlet extends BaseServlet {
 
 	/**
@@ -235,7 +237,7 @@ public class EmployeeServlet extends BaseServlet {
 	// 加载center.jsp页面数据
 	public void loadPage(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-		request.getRequestDispatcher("/view/frame/main.jsp").forward(request, response);
+		request.getRequestDispatcher("/WEB-INF/view/frame/main.jsp").forward(request, response);
 	}
 	
 	// 用户退出功能实现，清除session

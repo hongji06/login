@@ -75,7 +75,7 @@ a {
 			cellspacing="0">
 			<tr>
 				<td height="28"
-					background="resource/images/main_40.gif">
+					background="images/main_40.gif">
 					<table width="100%" border="0" cellspacing="0" cellpadding="0">
 						<tr>
 							<td width="19%">
@@ -97,7 +97,7 @@ a {
 								<table width="100%" border="0" cellspacing="0" cellpadding="0">
 									<tr>
 										<td height="23"
-											background="resource/images/main_47.gif"
+											background="images/main_47.gif"
 											id="imgmenu1" class="menu_title"
 											onMouseOver="this.className='menu_title2';"
 											onClick="showsubmenu(1)"
@@ -117,7 +117,7 @@ a {
 										</td>
 									</tr>
 									<tr>
-										<td background="resource/images/main_51.gif"
+										<td background="images/main_51.gif"
 											id="submenu1">
 											<div class="sec_menu">
 												<table width="100%" border="0" cellspacing="0"
@@ -129,7 +129,7 @@ a {
 																<tr>
 																	<td width="16%" height="25">
 																		<div align="center">
-																			<img src="resource/images/left.gif"
+																			<img src="images/left.gif"
 																				width="10" height="10" />
 																		</div>
 																	</td>
@@ -149,7 +149,7 @@ a {
 																<!-- <tr    >
 																	<td height="23">
 																		<div align="center">
-																			<img src="resource/images/left.gif"
+																			<img src="images/left.gif"
 																				width="10" height="10" />
 																		</div>
 																	</td>
@@ -172,7 +172,7 @@ a {
 																<tr>
 																	<td height="23">
 																		<div align="center">
-																			<img src="resource/images/left.gif"
+																			<img src="images/left.gif"
 																				width="10" height="10" />
 																		</div>
 																	</td>
@@ -194,7 +194,7 @@ a {
 																<tr>
 																	<td height="23">
 																		<div align="center">
-																			<img src="resource/images/left.gif"
+																			<img src="images/left.gif"
 																				width="10" height="10" />
 																		</div>
 																	</td>
@@ -216,7 +216,7 @@ a {
 																<tr>
 																	<td height="23">
 																		<div align="center">
-																			<img src="resource/images/left.gif"
+																			<img src="images/left.gif"
 																				width="10" height="10" />
 																		</div>
 																	</td>
@@ -238,7 +238,7 @@ a {
 																<tr>
 																	<td height="23">
 																		<div align="center">
-																			<img src="resource/images/left.gif"
+																			<img src="images/left.gif"
 																				width="10" height="10" />
 																		</div>
 																	</td>
@@ -260,7 +260,7 @@ a {
 																<!-- <tr>
 																	<td height="23">
 																		<div align="center">
-																			<img src="resource/images/left.gif"
+																			<img src="images/left.gif"
 																				width="10" height="10" />
 																		</div>
 																	</td>
@@ -282,7 +282,7 @@ a {
 																<!-- <tr>
 																	<td height="23">
 																		<div align="center">
-																			<img src="resource/images/left.gif"
+																			<img src="images/left.gif"
 																				width="10" height="10" />
 																		</div>
 																	</td>
@@ -307,7 +307,7 @@ a {
 													</tr>
 													<tr>
 														<td height="5">
-															<img src="resource/images/main_52.gif"
+															<img src="images/main_52.gif"
 																width="151" height="5" />
 														</td>
 													</tr>
@@ -329,7 +329,7 @@ a {
 								<table width="100%" border="0" cellspacing="0" cellpadding="0">
 									<tr>
 										<td height="23"
-											background="resource/images/main_47.gif"
+											background="images/main_47.gif"
 											id="imgmenu3" class="menu_title"
 											onmouseover="this.className='menu_title2';"
 											onclick="showsubmenu(3)"
@@ -349,7 +349,7 @@ a {
 										</td>
 									</tr>
 									<tr>
-										<td background="resource/images/main_51.gif"
+										<td background="images/main_51.gif"
 											id="submenu3">
 											<div class="sec_menu">
 												<table width="100%" border="0" cellspacing="0"
@@ -362,7 +362,7 @@ a {
 																<tr> 
 																	<td width="16%" height="25">
 																		<div align="center">
-																			<img src="resource/images/left.gif"
+																			<img src="images/left.gif"
 																				width="10" height="10" />
 																		</div>
 																	</td>
@@ -385,7 +385,7 @@ a {
 																<tr>
 																	<td height="23">
 																		<div align="center">
-																			<img src="resource/images/left.gif"
+																			<img src="images/left.gif"
 																				width="10" height="10" />
 																		</div>
 																	</td>
@@ -407,7 +407,7 @@ a {
 																<tr>
 																	<td height="23">
 																		<div align="center">
-																			<img src="resource/images/left.gif"
+																			<img src="images/left.gif"
 																				width="10" height="10" />
 																		</div>
 																	</td>
@@ -429,7 +429,7 @@ a {
 																<tr>
 																	<td height="23">
 																		<div align="center">
-																			<img src="resource/images/left.gif"
+																			<img src="images/left.gif"
 																				width="10" height="10" />
 																		</div>
 																	</td>
@@ -452,7 +452,7 @@ a {
 																<tr>
 																	<td height="23">
 																		<div align="center">
-																			<img src="resource/images/left.gif"
+																			<img src="images/left.gif"
 																				width="10" height="10" />
 																		</div>
 																	</td>
@@ -478,7 +478,7 @@ a {
 
 													<tr>
 														<td height="5">
-															<img src="resource/images/main_52.gif"
+															<img src="images/main_52.gif"
 																width="151" height="5" />
 														</td>
 													</tr>
@@ -497,7 +497,7 @@ a {
 								<table width="100%" border="0" cellspacing="0" cellpadding="0">
 									<tr>
 										<td height="23"
-											background="resource/images/main_47.gif"
+											background="images/main_47.gif"
 											id="imgmenu2" class="menu_title"
 											onMouseOver="this.className='menu_title2';"
 											onClick="showsubmenu(2)"
@@ -517,7 +517,7 @@ a {
 										</td>
 									</tr>
 									<tr>
-										<td background="resource/images/main_51.gif"
+										<td background="images/main_51.gif"
 											id="submenu2">
 											<div class="sec_menu">
 												<table width="100%" border="0" cellspacing="0"
@@ -529,7 +529,7 @@ a {
 																<tr>
 																	<td width="16%" height="25">
 																		<div align="center">
-																			<img src="resource/images/left.gif"
+																			<img src="images/left.gif"
 																				width="10" height="10" />
 																		</div>
 																	</td>
@@ -551,7 +551,7 @@ a {
 																<tr>
 																	<td height="23">
 																		<div align="center">
-																			<img src="resource/images/left.gif"
+																			<img src="images/left.gif"
 																				width="10" height="10" />
 																		</div>
 																	</td>
@@ -573,7 +573,7 @@ a {
 																<tr>
 																	<td height="23">
 																		<div align="center">
-																			<img src="resource/images/left.gif"
+																			<img src="images/left.gif"
 																				width="10" height="10" />
 																		</div>
 																	</td>
@@ -597,7 +597,7 @@ a {
 													</tr>
 													<tr>
 														<td height="5">
-															<img src="resource/images/main_52.gif"
+															<img src="images/main_52.gif"
 																width="151" height="5" />
 														</td>
 													</tr>
@@ -617,7 +617,7 @@ a {
 								<table width="100%" border="0" cellspacing="0" cellpadding="0">
 									<tr>
 										<td height="23"
-											background="resource/images/main_47.gif"
+											background="images/main_47.gif"
 											id="imgmenu4" class="menu_title"
 											onmouseover="this.className='menu_title2';"
 											onclick="showsubmenu(4)"
@@ -637,7 +637,7 @@ a {
 										</td>
 									</tr>
 									<tr>
-										<td background="resource/images/main_51.gif"
+										<td background="images/main_51.gif"
 											id="submenu4" style="DISPLAY: none">
 											<div class="sec_menu">
 												<table width="100%" border="0" cellspacing="0"
@@ -649,7 +649,7 @@ a {
 																<tr>
 																	<td width="16%" height="25">
 																		<div align="center">
-																			<img src="resource/images/left.gif"
+																			<img src="images/left.gif"
 																				width="10" height="10" />
 																		</div>
 																	</td>
@@ -671,7 +671,7 @@ a {
 																<tr>
 																	<td height="23">
 																		<div align="center">
-																			<img src="resource/images/left.gif"
+																			<img src="images/left.gif"
 																				width="10" height="10" />
 																		</div>
 																	</td>
@@ -693,7 +693,7 @@ a {
 																<tr>
 																	<td height="23">
 																		<div align="center">
-																			<img src="resource/images/left.gif"
+																			<img src="images/left.gif"
 																				width="10" height="10" />
 																		</div>
 																	</td>
@@ -717,7 +717,7 @@ a {
 													</tr>
 													<tr>
 														<td height="5">
-															<img src="resource/images/main_52.gif"
+															<img src="images/main_52.gif"
 																width="151" height="5" />
 														</td>
 													</tr>
@@ -735,7 +735,7 @@ a {
 			</tr>
 			<tr>
 				<td height="18"
-					background="resource/images/main_58.gif">
+					background="images/main_58.gif">
 					<table width="100%" border="0" cellspacing="0" cellpadding="0">
 						<tr>
 							<td height="18" valign="bottom">
@@ -759,12 +759,12 @@ imgmenu = eval("imgmenu" + sid);
 if (whichEl.style.display == "none")
 {
 eval("submenu" + sid + ".style.display=\"\";");
-imgmenu.background="<%=basePath%>resource/images/main_47.gif";
+imgmenu.background="<%=basePath%>images/main_47.gif";
 }
 else
 {
 eval("submenu" + sid + ".style.display=\"none\";");
-imgmenu.background="<%=basePath%>resource/images/main_48.gif";
+imgmenu.background="<%=basePath%>images/main_48.gif";
 }
 }
 
